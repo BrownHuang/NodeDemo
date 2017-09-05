@@ -1,0 +1,15 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "Node Demo Depoly Heroku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Brown",
+  "license": "MIT",
+  "dependencies": {
+    "express":"^4.15.4"
+  }
+}
