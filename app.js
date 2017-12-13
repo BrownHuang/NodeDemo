@@ -15,12 +15,9 @@ const app = express()
 
 //路徑 (ex : 127.0.0.1:3000/)
 app.get('/', function(req, res){
-    let arrayData = [];
-    let name = "黃柏融"
-    let email = "b9602104@gmail.com"
-    arrayData.push(name);
-    arrayData.push(email);
-
+    let objData =   {   name:"黃柏融", 
+                        email:"b9602104@gmail.com"
+                    };
     res.send(JSON.stringify(arrayData));
 })
 
