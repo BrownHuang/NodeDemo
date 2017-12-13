@@ -15,7 +15,13 @@ const app = express()
 
 //路徑 (ex : 127.0.0.1:3000/)
 app.get('/', function(req, res){
-    res.send('Hello World')
+    let arrayData = [];
+    let name = "黃柏融"
+    let email = "b9602104@gmail.com"
+    arrayData.push(name);
+    arrayData.push(email);
+
+    res.send(JSON.stringify(arrayData));
 })
 
 //Web 監聽的 Port 
